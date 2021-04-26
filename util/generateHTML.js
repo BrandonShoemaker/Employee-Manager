@@ -91,7 +91,7 @@ function htmlGenerator(session){
                     <div class="card-section card-section2 border-bottom">
                         Employee Id: ${intern.getId()}
                     </div>
-                    <a href="mailto:${}" class="card-section card-section2 border-bottom">
+                    <a href="mailto:${intern.getEmail()}" class="card-section card-section2 border-bottom">
                         Send Email To: ${intern.getEmail()}
                     </a>
                     <div class="card-section card-section2">
