@@ -1,6 +1,7 @@
 const Session = require('./lib/Session');
 
-async function getSession(){
+// starts everything
+function getSession(){
     let session = new Session();
     session.setEmployees();  
 }

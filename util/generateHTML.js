@@ -1,4 +1,5 @@
 
+// returns the data to write to the file, dynamically growing
 function htmlGenerator(session){
     return `
     
