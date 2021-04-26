@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --text-color: rgb(121, 89, 0);
+    --main-color: rgb(235, 192, 76);
+    --sub-color: rgb(255, 239, 193);
+    --base-color: rgba(190,140,0,1);
+    --name-color: rgb(224, 203, 144);
+    --employee-background: rgb(255 248 229);
+}
+
+body{
+    color: var(--text-color);
+    word-wrap: break-word;
+    background-color: var(--employee-background);
+    font-family: 'Barlow', sans-serif;
+    font-weight: bolder;
+
+}
+
+header{
+    box-shadow: 0px 0px 15px 2px #8E8E8E;
+}
+
+.banner{
+    background: var(--base-color);
+    background: linear-gradient(90deg, var(--base-color) 0%, rgba(235,192,75,1) 50%, var(--base-color) 100%);
+    width: 100%;
+    padding: 2vw 0 2vw 0;
+}
+
+.mainColor{
+    background-color: var(--main-color);
+}
+
+.card-section2{
+    background-color: var(--sub-color);
+}
+
+.card-divider2{
+    background-color: var(--name-color);
+}
+
+.border-bottom{
+    border-bottom: 1px var(--text-color) solid;
+}
+
+.employee-container{
+    margin: .5vw 1vw 0 1vw;
+    padding: 1vw;
+}
+
+.margins{
+    margin: .25vw .5vw .25vw .5vw;
+}
+
+.employeeFontSize{
+    font-size: 1vw;
+}
+
+.employeeTitlePadding{
+    padding: .45vw 0 .45vw 1.5vw;
+    box-shadow: 5px 5px 15px 2px #8E8E8E;
+}
+
+.employeeSectMargins{
+    padding: 1vw 0 1vw 0;
+}
+
+a:link{
+    color: rgb(243, 158, 30);
+}
+
+a:visited{
+    color: rgb(228, 137, 2);
+}
+
+a:active, a:hover{
+    color: rgb(163, 98, 0);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
