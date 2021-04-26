@@ -3,16 +3,16 @@
 No Badges
 
 ##### Table of Contents:
-[Description](#description)
-[Installation](#install)
-[Usage](#usage)
-[Contact](#contact)
-[Email](#email)
-[Additional Info](#addContact)
-[Tests](#tests)
-[Github](#github)
-[License Notice](#license)
-[Contributors](#contributors)
+[Description](#description)  
+[Installation](#install)  
+[Usage](#usage)  
+[Contact](#contact)  
+[Email](#email)  
+[Additional Info](#addContact)  
+[Tests](#tests)  
+[Github](#github)  
+[License Notice](#license)  
+[Contributors](#contributors)  
 
 ## Description
 
@@ -38,6 +38,10 @@ Step 6: Run npm index.js
 ## Usage 
 
 First you will need to follow the steps to install all necessary tools and technologies. After you have done so, assuming you are already inside this projects root directory, you will run the command node index.js in the command line. After doing so, fill out all information mentioned above. After each employee is added to the current session, it will ask whether you would like to add another employee, the option is yours. When you finish adding employees, respond no to that same question, and it will process what you've entered into an HTML file in the root directory of this project, overwriting any files that are named the same. Make sure to allow access to creating files to this program.
+
+## Screen Recording
+
+
 
 ## Contact
 
